@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أرغانيا - ذهب المغرب السائل</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Cairo', 'sans-serif'],
+              serif: ['Amiri', 'serif'],
+            },
+            colors: {
+              gold: {
+                100: '#FBF5D4',
+                200: '#F6E8A0',
+                300: '#F0DB6D',
+                400: '#EBCF3A',
+                500: '#D4B624',
+                600: '#AA911D',
+                700: '#806D16',
+                800: '#55490F',
+                900: '#2B2407',
+              },
+              soil: {
+                50: '#FDFBF7',
+                100: '#F5F0E6',
+                800: '#5D4037',
+                900: '#3E2723',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-soil-50 text-soil-900 font-sans selection:bg-gold-500 selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>
